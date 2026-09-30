@@ -32,9 +32,9 @@ subsequent run will be fully headless, but this probably isn't a great idea
 so is not default.
 
 `opencode.json` is created by copying your global config from
-`~/.config/opencode/opencode.json` on the first run, then updated in place
-with the current model list from the API. If you have no global config, copy
-one into this directory first.
+`~/.config/opencode/opencode.json` on the first run if you don't already
+have one in your pwd, and this copy is the one that will be updated with the current
+model list from the API, not the live one.
 
 ### Options
 
